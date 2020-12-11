@@ -253,6 +253,9 @@ dependencies {
 
     // TLS 1.3 support for Android < 10
     implementation("org.conscrypt:conscrypt-android:2.4.0")
+
+    // Tasker
+    implementation("com.joaomgcd:taskerpluginlibrary:0.3.3")
 }
 
 

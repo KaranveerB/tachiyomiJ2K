@@ -135,7 +135,15 @@
                     android:scheme="tachiyomi" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".tasker.ActivityConfigTaskerUpdateLibrary"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Update Library">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".extension.util.ExtensionInstallActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>

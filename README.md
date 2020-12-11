@@ -4,7 +4,18 @@ Tachiyomi is a free and open source manga reader for Android 6.0 and above.
 ![screenshots of app](./.github/readme-images/screens.png)
 
 ## Newest Release
-[v1.0.9](https://github.com/Jays2Kings/tachiyomiJ2K/releases)
+[v1.0.9T](https://github.com/KaranveerB/tachiyomiJ2K/releases)
+
+Play protect will likely warn you about the APK being signed by an unknown developer, but the APK is safe.
+Checking the source code and building from source is always an option if you have any doubts.
+
+## (Basic) Tasker integration
+* Update library
+* Maybe something else if I think of it
+
+Be warned that updating the app through typical means will cause the Tasker integration of this fork to no longer
+work as you will be on the upstream version. This can be fixed by reinstalling the APK from this fork. I'll likely
+keep this fork up to date as I would be using it myself.
 
 ## Features
 
@@ -16,7 +27,7 @@ Features of Tachiyomi include:
 * Categories to organize your library
 * Automatic light and dark themes
 * Schedule updating your library for new chapters
-* Create backups locally to read offline or to your desired cloud service 
+* Create backups locally to read offline or to your desired cloud service
 
 Plus some new features in this fork such as:
 * New Manga details screens
