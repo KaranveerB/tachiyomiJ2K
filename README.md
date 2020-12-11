@@ -9,13 +9,12 @@ Tachiyomi is a free and open source manga reader for Android 6.0 and above.
 Play protect will likely warn you about the APK being signed by an unknown developer, but the APK is safe.
 Checking the source code and building from source is always an option if you have any doubts.
 
+As of right now, this app will try to "update" the original app, but will not be able to. This will be fixed in a later version by changing the package
+name of the app. As of right now, the original app must be uninstalled to install this app. 
+
 ## (Basic) Tasker integration
 * Update library
 * Maybe something else if I think of it
-
-Be warned that updating the app through typical means will cause the Tasker integration of this fork to no longer
-work as you will be on the upstream version. This can be fixed by reinstalling the APK from this fork. I'll likely
-keep this fork up to date as I would be using it myself.
 
 ## Features
 
